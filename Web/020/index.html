@@ -8,8 +8,8 @@
         <link rel="Shortcut Icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png"/>
         <link rel="preload" href="img/1.jpg" as="image">
         <link rel="preload" href="img/2.jpg" as="image">
-        <link rel="preload" href="img/3.jpeg" as="image">
-        <link rel="preload" href="img/4.jpeg" as="image">
+        <link rel="preload" href="img/3.jpg" as="image">
+        <link rel="preload" href="img/4.jpg" as="image">
         <link rel="preload" href="img/5.jpg" as="image">
         <link rel="preload" href="img/6.jpg" as="image">
         <link rel="preload" href="img/7.jpg" as="image">
@@ -63,7 +63,7 @@
                     v-on:click="togglePrompt(true)"
                     :class="{'clickable': !isTyping }">
                     <span v-if="!isTyping">我想说……</span>
-                    <span v-if="isTyping">小黎同学正在输入中</span>
+                    <span v-if="isTyping">小吴同学正在输入中</span>
                 </div>
             </div>
             <div id="prompt-bg" v-on:click="togglePrompt(false)"></div>
